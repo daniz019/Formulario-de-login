@@ -1,0 +1,303 @@
+.soon {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.car {
+    position: absolute;
+    top: 0%;
+    height: 923px;
+    bottom: 0%;
+    width: 900px;
+    background-position: right;
+    right: 0%;
+    object-fit: cover;
+}
+
+.box {
+    position: absolute;
+    background-color: #24221f;
+    left: 200px;
+    top: 200px;
+    width: 700px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.yourlogin {
+    position: absolute;
+    left: 200px;
+    top: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #d4ccb6;
+    font-weight: 600;
+}
+
+.infoforregister {
+    position: absolute;
+    left: 165px;
+    top: 80px;
+    color: #afb6c2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.e-mail {
+    position: absolute;
+    left: 165px;
+    top: 150px;
+    color: #afb6c2;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.iptemail {
+    position: absolute;
+    left: 165px;
+    top: 185px;
+    background-color: #24221f;
+    border: solid #afb6c2;
+    border-width: 2px;
+    border-radius: 4px;
+    height: 30px;
+    width: 300px;
+}
+
+.passwordlb {
+    position: absolute;
+    left: 165px;
+    top: 250px;
+    color: #AFB6C2;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.iptpassword {
+    position: absolute;
+    left: 165px;
+    top: 280px;
+    background-color: #24221f;
+    border: solid #afb6c2;
+    border-width: 2px;
+    border-radius: 4px;
+    height: 30px;
+    width: 300px;
+}
+
+.forgetpassword {
+    position: absolute;
+    left: 320px;
+    top: 336px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffc632;
+    text-decoration: none;
+}
+
+.nothaveacc {
+    position: absolute;
+    top: 430px;
+    left: 200px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffc632;
+}
+
+.setinha {
+    position: absolute;
+    left: 165px;
+    top: 55px;
+}
+
+ input:focus {
+    border: solid #ffc632;
+    outline: none;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #24221f inset;
+    box-shadow: 0 0 0 30px #24221f inset;
+  }
+
+  .iptemail::placeholder {
+    position: absolute;
+    left: 40px;
+    top: 25%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #A9AFB9;
+  }
+
+  .emailicon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 190px;
+    left: 175px;
+  }
+
+   input:focus + svg path {
+    stroke: #ffc632;
+  }
+
+  #email {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active {
+    -webkit-transition-delay: 99999s;
+    transition-delay: 99999s;
+}
+
+.iptpassword::placeholder {
+    position: absolute;
+    left: 40px;
+    top: 25%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #A9AFB9;
+    font-weight: 500;
+  }
+
+  .lockericon {
+    position: absolute;
+    left: 177px;
+    top: 287px;
+  }
+
+  .eyespass {
+    position: absolute;
+    left: 430px;
+    top: 287px;
+  }
+
+  #senha {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .container {
+    display: block;
+    height: 1.5em;
+    width: 1.5em;
+    cursor: pointer;
+    position: absolute;
+    left: 165px;
+    top: 330px;
+  }
+  
+  .container input {
+    position: absolute;
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+  }
+  
+  .container input:checked ~ .checkmark {
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    height: 2em;
+    width: .7em;
+    border-color: #ffc632;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-radius: 0;
+  }
+  
+  .container .checkmark {
+    display: block;
+    width: inherit;
+    height: inherit;
+    border: 2px solid #A9AFB9;
+    border-radius: 4px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+
+  .lembreme {
+    position: absolute;
+    left: 200px;
+    top: 320px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #A9AFB9;
+  }
+
+  button {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid #ffc632;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    background-color: #24221f;
+    color: #ffc632;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+    top: 380px;
+    left: 165px;
+    width: 310px;
+   }
+   
+   button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #ffc632;
+    z-index: -1;
+   }
+   
+   button:hover, button:focus {
+    color: #24221f;
+   }
+   
+   button:hover:before, button:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+   }
+   
+   button:active {
+    transform: scale(0.9);
+   }
+
+   .register {
+    text-decoration: none;
+    color: #ffc632;
+    font-weight: 600;
+   }
+  
+  
+  
+  
+  
+  

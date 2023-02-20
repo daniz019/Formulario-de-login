@@ -1,0 +1,269 @@
+.car {
+    position: absolute;
+    top: 0%;
+    height: 923px;
+    bottom: 0%;
+    width: 900px;
+    background-position: right;
+    right: 0%;
+    object-fit: cover;
+}
+
+.soon {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.box {
+    position: absolute;
+    background-color: #24221f;
+    left: 200px;
+    top: 200px;
+    width: 700px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.setinha {
+    position: absolute;
+    left: 165px;
+    top: 55px;
+}
+
+.yourregister {
+    position: absolute;
+    left: 200px;
+    top: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #d4ccb6;
+    font-weight: 600;
+}
+
+.infoforregister {
+    position: absolute;
+    left: 165px;
+    top: 80px;
+    color: #afb6c2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.name {
+    position: absolute;
+    left: 165px;
+    top: 150px;
+    color: #afb6c2;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.iptname {
+    position: absolute;
+    left: 165px;
+    top: 185px;
+    background-color: #24221f;
+    border: solid #afb6c2;
+    border-width: 2px;
+    border-radius: 4px;
+    height: 30px;
+    width: 300px;
+}
+
+.nameicon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 190px;
+    left: 175px;
+  }
+
+  .iptname::placeholder {
+    position: absolute;
+    left: 40px;
+    top: 25%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #A9AFB9;
+    font-weight: 500;
+  }
+
+  .iptemail {
+    position: absolute;
+    left: 165px;
+    top: 270px;
+    background-color: #24221f;
+    border: solid #afb6c2;
+    border-width: 2px;
+    border-radius: 4px;
+    height: 30px;
+    width: 300px;
+}
+
+.iptemail::placeholder {
+    position: absolute;
+    left: 40px;
+    top: 25%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #A9AFB9;
+    font-weight: 500;
+  }
+
+  .emailicon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 275px;
+    left: 175px;
+  }
+
+  .e-mail {
+    position: absolute;
+    left: 165px;
+    top: 235px;
+    color: #afb6c2;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.passwordlb {
+    position: absolute;
+    left: 165px;
+    top: 315px;
+    color: #AFB6C2;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.iptpassword {
+    position: absolute;
+    left: 165px;
+    top: 350px;
+    background-color: #24221f;
+    border: solid #afb6c2;
+    border-width: 2px;
+    border-radius: 4px;
+    height: 30px;
+    width: 300px;
+}
+
+.lockericon {
+    position: absolute;
+    left: 177px;
+    top: 357px;
+  }
+
+  .iptpassword::placeholder {
+    position: absolute;
+    left: 40px;
+    top: 25%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #A9AFB9;
+    font-weight: 500;
+  }
+
+  input:focus {
+    border: solid #ffc632;
+    outline: none;
+}
+
+input:focus + svg path {
+    stroke: #ffc632;
+  }
+
+  .eyespass {
+    position: absolute;
+    left: 430px;
+    top: 355px;
+  }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active {
+    -webkit-transition-delay: 99999s;
+    transition-delay: 99999s;
+}
+
+button {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid #ffc632;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    background-color: #24221f;
+    color: #ffc632;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+    top: 430px;
+    left: 165px;
+    width: 310px;
+   }
+   
+   button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #ffc632;
+    z-index: -1;
+   }
+   
+   button:hover, button:focus {
+    color: #24221f;
+   }
+   
+   button:hover:before, button:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+   }
+   
+   button:active {
+    transform: scale(0.9);
+   }
+
+   #senha {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: 500;
+  }
+
+  #email {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: 500;
+  }
+
+  #nome {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: 500;
+  }
+
+
+
